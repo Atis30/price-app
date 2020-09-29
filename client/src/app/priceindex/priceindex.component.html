@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <h3 id="title">Price Index</h3>
+    </div>
+  </div>
+</div>
+<form
+  class="col s12"
+  [formGroup]="priceForm"
+  novalidate
+  (ngSubmit)="addPrice()"
+>
+  <div class="row">
+    <div class="input-field col s12">
+      <input
+        id="first_name"
+        type="text"
+        formControlName="listprice"
+        autocomplete="off"
+      />
+      <label class="active" for="list_price">List Price</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+      <input id="d_off" type="text" formControlName="doff" autocomplete="off" />
+      <label class="active" for="d_off">Dollar Offset</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+      <input
+        id="net_price"
+        type="text"
+        formControlName="netprice"
+        autocomplete="off"
+      />
+      <label class="active" for="net_price">Net Price</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+      <input
+        id="comments"
+        type="text"
+        formControlName="comments"
+        autocomplete="off"
+      />
+      <label class="active" for="comments">Comments/Notes</label>
+    </div>
+  </div>
+  <button class="btn waves-effect" id="pricebtn">Save Price</button>
+  <button class="btn waves-effect" id="displaybtn">
+    Display Price
+  </button>
+</form>

@@ -1,0 +1,56 @@
+#panel {
+  background-color: #ffffff;
+}
+#panel {
+  padding: 0px;
+}
+#list_price {
+  float: left;
+  margin-right: 10px;
+  background-color: #ffffff;
+  font-weight: 600;
+}
+#pricebtn {
+  float: right;
+  margin-right: 10px;
+  background-color: #64b5f6;
+  font-weight: 500;
+}
+#displaybtn {
+  float: left;
+  margin-right: 10px;
+  background-color: #64b5f6;
+  font-weight: 500;
+}
+.indeterminate {
+  background-color: #64b5f6 !important;
+}
+.error {
+  color: red;
+}
+#title {
+  background-color: #64b5f6;
+  color: white;
+  padding: 8px;
+  margin-top: 0px;
+  font-weight: 700;
+  text-align: center;
+}
+form {
+  padding: 0px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 0px 20px 0px 20px;
+}
+.input-field {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+#errorMsg span {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: relative;
+  float: left;
+  font-size: 15px;
+}
