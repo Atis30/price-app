@@ -40,7 +40,7 @@ export class PriceindexComponent implements OnInit {
     });
   }
 
-  addPrice(titleInput: HTMLInputElement, bodyInput: HTMLInputElement) {
+  addPrice() {
     this.pricelistService
       .saveAllPrice(this.priceForm.value)
       .subscribe((data) => {
