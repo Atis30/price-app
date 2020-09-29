@@ -5,13 +5,13 @@
 Clone using git clone
 
 Build client 
-cd priceapp/ client---> npm install
+cd price-app/ client---> npm install
 
 ng serve --open
 
 Application will start on localhost:4200
 
-Build server cd priceapp/server--->npm install
+Build server cd price-app/server--->npm install
 
 npm run start:dev
 
